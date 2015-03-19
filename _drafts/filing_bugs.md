@@ -5,13 +5,13 @@ title: filing good bugs
 
 Every developer has to deal with them. Whether they are incoming from your users or you are on the filing end for a bug in an OSS project or filing something against the tools you are using, bug reports are a part of developer life.
 
-I was at Apple when this meme went viral. While it is firmly tongue in cheek it does high 
+I was at Apple when this meme went viral. While it is firmly tongue in cheek this meme does highlight the importance of reporting bugs and issues in a manor that is consistant and open to all.
 
 ![Radar or GTFO]({{ site.url }}/assets/2012_02_29_photo.png "Photo by George Dick https://twitter.com/georgedick, 'Radar or GTFO' addition by Steve Streza https://twitter.com/stevestreza/status/177190924386975744")
 
 \<rant\> I'm not going to talk about the quality of Apple's bug reporting tools. Saying that the quality of radar is why you don't file bugs is just an excuse for not helping the community. And a poor one at that. \</rant\>
 
-One of the many things I learned in my tenure at Apple was the importance of good and frequent bug reporting. Here are a few things that help improve the quality of your bugs.
+One of the many things I learned in my tenure at Apple was the importance of good and frequent bug reporting. Here are a few tips that will help improve the quality of your bugs.
 
 ###Clear steps to reproduce
 
@@ -43,7 +43,7 @@ And showing me what you saw when you filed the bug is far more valuable than try
 
 On Android the process for screen recording is not as clean but still doable and still very valuable. If you have Android Studio screen recording is [built in](https://developer.android.com/tools/debugging/debugging-studio.html#screenCap). If you don't then you're going to have to jump into the [command line to make your videos](http://www.cnet.com/uk/how-to/how-to-record-your-screen-on-android-4-4-kitkat/).
 
-[Skitch by Evernote](https://evernote.com/skitch/) (available for [Android](https://play.google.com/store/apps/details?id=com.evernote.skitch&hl=en_GB) and [iOS](https://itunes.apple.com/gb/app/skitch-snap.-mark-up.-send./id490505997?mt=8)) is a great tool for annotating screenshots.
+[Skitch by Evernote](https://evernote.com/skitch/) (available for [Android](https://play.google.com/store/apps/details?id=com.evernote.skitch&hl=en_GB) and [iOS](https://itunes.apple.com/gb/app/skitch-snap.-mark-up.-send./id490505997?mt=8)) is a great tool for annotating screenshots directly on your device or on your computer.
 
 ###Logs / crash reports
 
@@ -55,7 +55,7 @@ These are the bread and butter of reporting a crash. In my early days I had file
 
 <iframe src="//giphy.com/embed/5DpF7t1WzLnCU?html5=true" width="240" height="180" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Where do you even start?! This one really seems obvious to some but to many it's not. Be concise. Be focused. Have a point.
+Where do you even start?! This may seem obvious to some but to many it's not. Be concise. Be focused. Have a point. Submit only one issue per bug report
 
 ###Never assign blame
 
